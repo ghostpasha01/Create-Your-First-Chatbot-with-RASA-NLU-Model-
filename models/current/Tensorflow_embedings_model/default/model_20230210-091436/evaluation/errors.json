@@ -1,0 +1,10 @@
+[
+    {
+        "text": "cost of washine machine",
+        "intent": "ask_price",
+        "intent_prediction": {
+            "name": "product_info",
+            "confidence": 0.805923581123352
+        }
+    }
+]

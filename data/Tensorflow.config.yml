@@ -1,0 +1,12 @@
+language: "en"
+
+pipeline:
+- name: "tokenizer_whitespace"                    
+# uses the pretrained spacy NER model(Entity Extraction)
+- name: "ner_crf"                                
+# Maps synonymous entity values to the same value.
+- name: "ner_synonyms"
+# Creates a bag-of-words representation of intent features                            
+- name: "intent_featurizer_count_vectors"         
+# Embedding intent classifier
+- name: "intent_classifier_tensorflow_embedding"

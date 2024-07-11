@@ -1,0 +1,344 @@
+{
+   "rasa_nlu_data":{
+      "common_examples":[
+         {
+            "text":"Can you tell me about television",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":22,
+                  "end":32,
+                  "value":"television",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"tell me about refrigrator",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":15,
+                  "end":25,
+                  "value":"efrigrator",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"i want to know about fridge",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":21,
+                  "end":27,
+                  "value":"fridge",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"details about washine machine",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":14,
+                  "end":29,
+                  "value":"washine machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"specification about television",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":20,
+                  "end":30,
+                  "value":"television",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"tell me about",
+            "intent":"product_info",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"Hi, can you tell me more about Samsung LED TV",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":31,
+                  "end":45,
+                  "value":"Samsung LED TV",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"can you tell me price for ",
+            "intent":"ask_price",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"can you tell me price for Television",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":26,
+                  "end":36,
+                  "value":"Television",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"can you tell me price for Television in Canada",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":26,
+                  "end":36,
+                  "value":"Television",
+                  "entity":"product"
+               },
+               {
+                  "start":40,
+                  "end":46,
+                  "value":"Canada",
+                  "entity":"location"
+               }
+            ]
+         },
+         {
+            "text":"price for washing machine",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":9,
+                  "end":25,
+                  "value":" washing machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"i live in Canada",
+            "intent":"",
+            "entities":[
+               {
+                  "start":10,
+                  "end":16,
+                  "value":"Canada",
+                  "entity":"location"
+               }
+            ]
+         },
+         {
+            "text":"i stay in Memphis,USA",
+            "intent":"",
+            "entities":[
+               {
+                  "start":10,
+                  "end":21,
+                  "value":"Memphis,USA",
+                  "entity":"location"
+               }
+            ]
+         },
+         {
+            "text":"can i cancel the order",
+            "intent":"cancel_order",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"i want to cancel the order",
+            "intent":"cancel_order",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"i want to cancel order for order id 1234",
+            "intent":"cancel_order",
+            "entities":[
+               {
+                  "start":36,
+                  "end":40,
+                  "value":"1234",
+                  "entity":"order_id"
+               }
+            ]
+         },
+         {
+            "text":"my order is 3245",
+            "intent":"",
+            "entities":[
+               {
+                  "start":12,
+                  "end":16,
+                  "value":"3245",
+                  "entity":"order_id"
+               }
+            ]
+         },
+         {
+            "text":"i am looking for a",
+            "intent":"product_info",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"help me find refrigerator",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":13,
+                  "end":25,
+                  "value":"refrigerator",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"find washing machine",
+            "intent":"product_info",
+            "entities":[
+               {
+                  "start":5,
+                  "end":20,
+                  "value":"washing machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"i want to know the price of ",
+            "intent":"ask_price",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"i want to know the price of washine machine",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":28,
+                  "end":43,
+                  "value":"washine machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"price for washine machine in Bangalore,India",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":28,
+                  "end":44,
+                  "value":" Bangalore,India",
+                  "entity":"location"
+               },
+               {
+                  "start":10,
+                  "end":26,
+                  "value":"washine machine ",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"cost of washine machine",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":8,
+                  "end":23,
+                  "value":"washine machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"what is the rate for",
+            "intent":"ask_price",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"what is the rate for  washine machine",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":22,
+                  "end":37,
+                  "value":"washine machine",
+                  "entity":"product"
+               }
+            ]
+         },
+         {
+            "text":"what is the rate for  washine machine in bangalore",
+            "intent":"ask_price",
+            "entities":[
+               {
+                  "start":22,
+                  "end":37,
+                  "value":"washine machine",
+                  "entity":"product"
+               },
+               {
+                  "start":41,
+                  "end":50,
+                  "value":"bangalore",
+                  "entity":"location"
+               }
+            ]
+         },
+         {
+            "text":"drop the order",
+            "intent":"cancel_order",
+            "entities":[
+               
+            ]
+         },
+         {
+            "text":"cancel the order id 4567",
+            "intent":"cancel_order",
+            "entities":[
+               {
+                  "start":20,
+                  "end":24,
+                  "value":"4567",
+                  "entity":"order_id"
+               }
+            ]
+         },
+         {
+            "text":"Can you please cancel the order id 4567",
+            "intent":"cancel_order",
+            "entities":[
+               {
+                  "start":35,
+                  "end":39,
+                  "value":"4567",
+                  "entity":"order_id"
+               }
+            ]
+         }
+      ]
+   }
+}

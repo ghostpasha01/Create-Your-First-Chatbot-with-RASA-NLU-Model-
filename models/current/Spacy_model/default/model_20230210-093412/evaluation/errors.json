@@ -1,0 +1,10 @@
+[
+    {
+        "text": "Can you please cancel the order id 4567",
+        "intent": "cancel_order",
+        "intent_prediction": {
+            "name": "ask_price",
+            "confidence": 0.47791285860426813
+        }
+    }
+]

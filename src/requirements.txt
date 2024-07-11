@@ -1,0 +1,8 @@
+protobuf==3.6.1
+tensorflow==1.15
+spacy==2.3.5
+rasa-nlu==0.15.1
+pandas==1.1.5
+sklearn_crfsuite==0.3.6
+matplotlib==2.2.5
+pymongo==4.1.1

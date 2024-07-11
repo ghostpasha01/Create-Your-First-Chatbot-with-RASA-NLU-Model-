@@ -1,0 +1,2 @@
+model_checkpoint_path: "d:\\PROJECTS\\rasa-nlu-chatbot\\modular_code\\modular_code\\./models/current/./Tensorflow_embedings_model\\default\\model_20230210-093402\\component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "d:\\PROJECTS\\rasa-nlu-chatbot\\modular_code\\modular_code\\./models/current/./Tensorflow_embedings_model\\default\\model_20230210-093402\\component_4_EmbeddingIntentClassifier.ckpt"

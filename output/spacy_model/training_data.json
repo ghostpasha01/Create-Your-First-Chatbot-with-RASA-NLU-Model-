@@ -1,0 +1,221 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_price",
+        "text": "can you tell me price for "
+      },
+      {
+        "intent": "ask_price",
+        "text": "i want to know the price of "
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Television",
+            "entity": "product"
+          }
+        ],
+        "text": "can you tell me price for Television"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "washine machine",
+            "entity": "product"
+          }
+        ],
+        "text": "what is the rate for  washine machine"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Television",
+            "entity": "product"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Canada",
+            "entity": "location"
+          }
+        ],
+        "text": "can you tell me price for Television in Canada"
+      },
+      {
+        "intent": "ask_price",
+        "text": "what is the rate for"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "washine machine",
+            "entity": "product"
+          }
+        ],
+        "text": "cost of washine machine"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 28,
+            "end": 43,
+            "value": "washine machine",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to know the price of washine machine"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "washine machine",
+            "entity": "product"
+          }
+        ],
+        "text": "details about washine machine"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "refrigerator",
+            "entity": "product"
+          }
+        ],
+        "text": "help me find refrigerator"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Samsung LED TV",
+            "entity": "product"
+          }
+        ],
+        "text": "Hi, can you tell me more about Samsung LED TV"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "fridge",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to know about fridge"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "television",
+            "entity": "product"
+          }
+        ],
+        "text": "Can you tell me about television"
+      },
+      {
+        "intent": "product_info",
+        "text": "i am looking for a"
+      },
+      {
+        "intent": "product_info",
+        "text": "tell me about"
+      },
+      {
+        "intent": "product_info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "washing machine",
+            "entity": "product"
+          }
+        ],
+        "text": "find washing machine"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "drop the order"
+      },
+      {
+        "intent": "cancel_order",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "4567",
+            "entity": "order_id"
+          }
+        ],
+        "text": "Can you please cancel the order id 4567"
+      },
+      {
+        "intent": "cancel_order",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "4567",
+            "entity": "order_id"
+          }
+        ],
+        "text": "cancel the order id 4567"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "can i cancel the order"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Canada",
+            "entity": "location"
+          }
+        ],
+        "text": "i live in Canada"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "3245",
+            "entity": "order_id"
+          }
+        ],
+        "text": "my order is 3245"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
